@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        try {
+        /*try {
             PackageInfo info = getPackageManager().getPackageInfo(
                     "com.project.coresol.facbookloginapi",
                     PackageManager.GET_SIGNATURES);
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         } catch (NoSuchAlgorithmException e) {
 
-        }
+        }*/
         btn_share = (Button)findViewById(R.id.btn_share);
         callbackManager = CallbackManager.Factory.create();
         loginButton = (LoginButton)findViewById(R.id.login_button);
